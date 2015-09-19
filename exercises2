@@ -1,0 +1,119 @@
+my_num = 25    # Add your code here!
+
+my_boolean =    true # And here!
+
+my_string =     "Ruby" # Also here.
+
+
+puts "I'm Molly, yo."
+print "Yes, you are."
+
+
+"Molly".length
+
+"Molly".reverse
+
+
+puts "Molly".upcase
+
+puts "Molly".downcase
+
+=begin I am a multi-line comment. You can tell because I'm using the equals sign instead of the hash tag =end
+
+
+=begin 
+I am a multi-line comment. You can tell because I'm using the equals sign instead of the hash tag 
+=end
+
+name = "Molly"
+
+
+my_name = "Molly"
+my_age = 37
+
+
+sum = 13 + 379
+product = 923 * 15
+quotient = 13209 / 17
+
+
+name = "Molly"
+name.downcase
+name.reverse
+name.upcase
+
+
+name.downcase.reverse.upcase
+
+
+# I am a single line comment
+
+=begin
+I am a multi-line comment.
+Yes, I am.
+=end
+
+
+print "What's your first name?"
+first_name = gets.chomp
+first_name.capitalize!
+
+print "What's your last name?"
+last_name = gets.chomp
+last_name.capitalize!
+
+print "What city are you from?"
+city = gets.chomp
+city.capitalize!
+
+print "What state or province are you from?"
+state = gets.chomp
+state.upcase!
+
+puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!"
+
+
+print "What's your first name?"
+
+
+print "What's your first name?"
+first_name = gets.chomp
+
+print "What's your first name?"
+first_name = gets.chomp
+
+print "What's your last name?"
+last_name = gets.chomp
+
+print "What city are you from?"
+city = gets.chomp
+
+print "What state are you from? Use an abbreviation."
+state = gets.chomp
+
+puts "Your name is #{first_name} #{last_name} and you are from #{city}, #{state}."
+
+
+
+print "What's your first name?"
+first_name = gets.chomp
+first_name.capitalize!
+
+print "What's your last name?"
+last_name = gets.chomp
+last_name.capitalize!
+
+print "What city are you from?"
+city = gets.chomp
+city.capitalize!
+
+print "What state are you from? Use an abbreviation."
+state = gets.chomp
+state.upcase!
+
+puts "Your name is #{first_name} #{last_name} and you are from #{city}, #{state}."
+
+
+
+
+
