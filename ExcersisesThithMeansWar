@@ -1,0 +1,58 @@
+print "Thtring, pleathe!: "
+user_input = gets.chomp
+user_input.downcase!
+
+if user_input.include? "s"
+  user_input.gsub!(/s/, "th")
+else
+  puts "Nothing to do here!"
+end
+  
+puts "Your string is: #{user_input}"
+
+
+print "String, please."
+user_input = gets.chomp
+
+print "String, please."
+user_input = gets.chomp
+user_input.downcase!
+
+
+print "String, please."
+user_input = gets.chomp
+user_input.downcase!
+
+if user_input.include? "s"
+    print "Waiter, there's an s in my string!"
+end
+
+print "String, please."
+user_input = gets.chomp
+user_input.downcase!
+
+if user_input.include? "s"
+    user_input.gsub!(/s/, "th")
+end
+
+print "String, please."
+user_input = gets.chomp
+user_input.downcase!
+
+if user_input.include? "s"
+    user_input.gsub!(/s/, "th")
+else
+    print "There's no 's' in your string"
+end
+
+print "String, please."
+user_input = gets.chomp
+user_input.downcase!
+
+if user_input.include? "s"
+    user_input.gsub!(/s/, "th")
+    puts user_input
+else
+    print "There's no 's' in your string"
+end
+
