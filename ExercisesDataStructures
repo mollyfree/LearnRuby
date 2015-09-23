@@ -1,0 +1,53 @@
+my_array = ["cheese" , 4 , false]
+
+
+
+demo_array = [100, 200, 300, 400, 500]
+
+print  demo_array[2]
+
+
+string_array = ["ice" , "cream" , "cone" ]
+
+
+multi_d_array = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+
+multi_d_array.each { |x| puts "#{x}\n" }
+
+
+my_2d_array = [ [true, false] , [4, 6] ]
+
+
+my_hash = { "name" => "Eric",
+  "age" => 26,
+  "hungry?" => true
+}
+
+puts my_hash["name"]
+puts my_hash["age"]
+puts my_hash["hungry?"]
+
+
+pets = Hash.new
+
+
+pets["Pukey"] = "cat"
+
+
+puts pets["Pukey"]
+
+
+friends = ["Milhouse", "Ralph", "Nelson", "Otto"]
+
+family = { "Homer" => "dad",
+  "Marge" => "mom",
+  "Lisa" => "sister",
+  "Maggie" => "sister",
+  "Abe" => "grandpa",
+  "Santa's Little Helper" => "dog"
+}
+
+friends.each { |x| puts "#{x}" }
+family.each { |x, y| puts "#{x}: #{y}" }
+
+
