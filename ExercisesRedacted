@@ -26,3 +26,21 @@ puts text = gets.chomp
 print "What would you like to redact?"
 puts redact = gets.chomp
 
+print "What is your string?"
+puts text = gets.chomp
+
+print "What would you like to redact?"
+puts redact = gets.chomp
+
+words = text.split(",")
+
+words.each do |words|
+    if text == redact
+        print "REDACTED "
+    else
+        print words + " "
+end
+end
+# Note: Make sure to have two "ends," one for the .each/do, and one for the if/else
+
+#Not sure I totally understand this. It never actually "replaced" the word, but the program said it worked.
