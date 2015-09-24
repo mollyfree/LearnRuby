@@ -51,3 +51,46 @@ friends.each { |x| puts "#{x}" }
 family.each { |x, y| puts "#{x}: #{y}" }
 
 
+languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+languages.each { |element| puts element }
+
+
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+s.each { |sub_array| puts sub_array }
+
+sub_array.each { |item| puts item }
+
+
+secret_identities = {
+  "The Batman" => "Bruce Wayne",
+  "Superman" => "Clark Kent",
+  "Wonder Woman" => "Diana Prince",
+  "Freakazoid" => "Dexter Douglas"
+}
+  
+secret_identities.each do |fake, real| 
+    puts "#{fake}: #{real}"
+end
+
+
+my_array = [ [0, false] , [2, true] ]
+
+my_hash = {
+    "name" => "Molly",
+    "age" => 37
+}
+
+lunch_order = {
+  "Ryan" => "wonton soup",
+  "Eric" => "hamburger",
+  "Jimmy" => "sandwich",
+  "Sasha" => "salad",
+  "Cole" => "taco"
+}
+
+lunch_order.each { |name, dish| puts dish }
+
+
+
